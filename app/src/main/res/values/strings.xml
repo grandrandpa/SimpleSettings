@@ -1,0 +1,232 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TspSettings</string>
+    <string name="system_settings">SYSTEM SETTINGS</string>
+    <string name="time_format">Time Format</string>
+    <string name="click_voice">Click Voice</string>
+    <string name="gesture_recognize">Gesture Recognition</string>
+    <string name="log_switch">Log Switch</string>
+    <string name="engine_simulation">Engine Simulation</string>
+    <string name="media_volume">Media Volume</string>
+    <string name="volume_with_speed">Volume With Speed</string>
+    <string name="ring_volume">Ring Volume</string>
+    <string name="navi_volume">Navi Volume</string>
+    <string name="phone_volume">Phone Volume</string>
+    <string name="brightness">Brightness</string>
+    <string name="play_video_on_driving">Play Video On Driving</string>
+    <string name="screen_off">Screen Off</string>
+    <string name="display_off">Display When Off</string>
+    <string name="sound_effect_am3d">AM3D Sound</string>
+    <string name="sound_effect">Audio Effect</string>
+    <string name="standard">Standard</string>
+    <string name="high">High</string>
+    <string name="mid">Mid</string>
+    <string name="low">Low</string>
+    <string name="audio_field">Audio Field</string>
+    <string name="reset">Reset</string>
+    <string name="customize">Customization</string>
+    <string name="sound_mode_choose">Choose Sound Mode</string>
+    <string name="wlan_switch">WLAN Switcher</string>
+    <string name="mac_address">MAC Address: </string>
+    <string name="openning">Openning......</string>
+    <string name="available_networks">Available Networks</string>
+    <string name="bt_switch">Bluetooth</string>
+    <string name="search_on_phone">Please search on the phone: </string>
+    <string name="sync_contacts">Sync Contacts</string>
+    <string name="voice_incoming">Voice Incoming</string>
+    <string name="device_name">Device Name</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="available_devices">Available Devices</string>
+    <string name="bt_note"></string>
+    <string name="bt_note1"></string>
+    <string name="bt_note2">"Before using the phone function please open Bluetooth"</string>
+    <string name="theme">Theme</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="classic">Classic</string>
+    <string name="sports">Sports</string>
+    <string name="rom_info">Version Info</string>
+    <string name="sys_version">System Version:</string>
+    <string name="mcu_version">Mcu Version:</string>
+    <string name="navi_version">Navigation Version:</string>
+    <string name="voice_version">Voice Version:</string>
+    <string name="bt_version">Bluetooth Version:</string>
+    <string name="usb_upgrade">USB Upgrade</string>
+    <string name="wlan_upgrade">WLAN Upgrade</string>
+    <string name="used_today">Used Today</string>
+    <string name="used_this_month">Used This Month</string>
+    <string name="go_to_networks">Go To Networks Settings</string>
+    <string name="choose_a_function">Choose A Function</string>
+    <string name="system">System</string>
+    <string name="multi_media">Multi-Media</string>
+    <string name="navigation">Navigation</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="other">Other</string>
+    <string name="complaints">Complaints</string>
+    <string name="hint1">phone number(optional)</string>
+    <string name="hint2">you could input 140 characters</string>
+    <string name="device_model">Model:</string>
+    <string name="firmware_version">Android version：</string>
+    <string name="kernel_version">Kernel version：</string>
+    <string name="build_number">Build number：</string>
+    <string name="reset_note">Restore System Factory Settings</string>
+    <string name="reset_note1">You will erase all the data</string>
+    <string name="factory_data_reset">Factory Data Reset</string>
+    <string name="display">Display</string>
+    <string name="audio">Audio</string>
+    <string name="networks">Networks</string>
+    <string name="customize">Customize</string>
+    <string name="model_3d">3D Model</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="mobile_data">Data</string>
+    <string name="user_feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="fdr">Reset</string>
+    <string name="saved">Saved</string>
+    <string name="no_usb_disk">Usb disk is not inserted</string>
+    <string name="no_wlan"> Please connect to WlAN before you detect new version</string>
+    <string name="left_turn_signal">Left turn signal</string>
+    <string name="emergency_lamp">Emergency lamp</string>
+    <string name="lights_off">Lights off</string>
+    <string name="right_turn_signal">Right turn signal</string>
+    <string name="bt_device_rename">Rename</string>
+    <string name="gesuter_air_init_failed">Gesture air init failed</string>
+
+
+
+    <string name="dialog_bt_disconnect_title">Disconnect?</string>
+    <string name="dialog_bt_disconnect_content">This operation will disconnect from：\n\n  </string>
+    <string name="dialog_bt_disconnect_confirm">Disconnect</string>
+    <string name="dialog_bt_disconnect_cancel">Cancel</string>
+
+    <string name="wifi_disconnecting">disconnecting...</string>
+    <string name="wifi_disconnected">disconnected</string>
+    <string name="wifi_scaning">scanning...</string>
+    <string name="wifi_authenticating">authenticating...</string>
+    <string name="wifi_obtaining_ipaddr">obtaining ip address...</string>
+    <string name="wifi_connected">connected</string>
+    <string name="wifi_connecting">connecting...</string>
+    <string name="wifi_password_input">Please input the password</string>
+    <string name="wifi_password_input_err">You haven\'t input the password yet</string>
+    <string name="wifi_password_err">The password is wrong！</string>
+    <string name="wifi_disconnecting_question">Disconnecting？</string>
+    <string name="wifi_operate_question">Connect or delete this network？</string>
+    <string name="wifi_prepare_for_active">Prepare for activing wifi......</string>
+    <string name="wifi_prepare_for_close">Prepare for closing wifi......</string>
+    <string name="wifi_activing">Activing wifi......</string>
+    <string name="wifi_closing">Closing wifi......</string>
+    <string name="hotspot_switch">Hotspot switch</string>
+    <string name="hotspot">Access point</string>
+    <string name="hotspot_set">Hotspot set</string>
+    <string name="setting_hotspot">Setting hotspot</string>
+    <string name="hotspot_name">Net name</string>
+    <string name="hotspot_password">Net password</string>
+    <string name="hotspot_sec_type">Secure type</string>
+    <string name="hotspot_band">Band</string>
+    <string name="hotspot_password_tips">Password at least 8 bits</string>
+    <string name="hotspot_password_value">12345678</string>
+    <string name="hotspot_portable">Portable hotspot</string>
+    <string name="hotspot_activation">is activation, </string>
+    <string name="hotspot_connected">is connected.</string>
+    <string name="hotspot_input_info">Input name and password, please!</string>
+
+    <string name="bt_disconnect">disconnect</string>
+    <string name="bt_remove">remove</string>
+    <string name="bt_connect">connect</string>
+    <string name="bt_cancel">cancel</string>
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <string name="bt_contact_priding">Pairing…</string>
+
+    <string name="lang_zh_cn">中文</string>
+    <string name="lang_en">English</string>
+    <string name="language">Language</string>
+
+    <array name="language_opts">
+        <item name="chinese">@string/lang_zh_cn</item>
+        <item name="english">@string/lang_en</item>
+    </array>
+    <array name="time_format">
+        <item name="12_hour">12-hour</item>
+        <item name="24_hour">24-hour</item>
+    </array>
+    <array name="opts_voice">
+        <item name="off">Off</item>
+        <item name="low">Light</item>
+        <item name="mid">Medium</item>
+        <item name="high">Strong</item>
+    </array>
+    <array name="opts_off_screen">
+        <item name="digital_clock">Digital Clock</item>
+        <item name="analog_clock">Analog Clock</item>
+        <item name="none">None</item>
+    </array>
+    <array name="sound_mode">
+        <item>@string/standard</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Classical</item>
+        <item>Voice</item>
+    </array>
+
+    <string name = "spin_prompt" >hotspot setting</string>
+    <string-array name = "hotspot_type">
+        <item> WPA-PSK/WPA2-PSK </item>
+        <item> WPA-PSK </item>
+        <item> WPA2-PSK </item>
+        <item> WEP </item>
+    </string-array>
+
+    <string-array name = "hotspot_band_type">
+        <item> 2.4G Hz </item>
+        <item> 5G Hz </item>
+    </string-array>
+
+    <!--Bluetooth-->
+    <!-- Title for the dialog to enter PIN. [CHAR LIMIT=40] -->
+    <string name="bluetooth_pairing_request">Pair with <xliff:g id="device_name">%1$s</xliff:g>?</string>
+
+    <!-- Message when bluetooth is informing the user of the pairing key. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_pairing_key_msg">Bluetooth pairing code</string>
+
+    <!-- Message when bluetooth dialog for passkey entry is showing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_passkey_msg">Type the pairing code then press Return or Enter</string>
+
+    <!-- Checkbox label for alphanumeric PIN entry (default is numeric PIN). [CHAR LIMIT=50] -->
+    <string name="bluetooth_enable_alphanumeric_pin">PIN contains letters or symbols</string>
+
+    <!-- Bluetooth PIN hint text (below the text entry box). [CHAR LIMIT=30] -->
+    <string name="bluetooth_pin_values_hint">Usually 0000 or 1234</string>
+
+    <!-- Bluetooth PIN hint text (below the text entry box). [CHAR LIMIT=30] -->
+    <string name="bluetooth_pin_values_hint_16_digits">Must be 16 digits</string>
+
+    <!-- Pairing dialog text to remind user to enter the PIN on the other device. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_pin_other_device">You may also need to type this PIN on the other device.</string>
+    <!-- Pairing dialog text to remind user to enter the passkey on the other device. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_passkey_other_device">You may also need to type this passkey on the other device.</string>
+
+    <!-- Message for confirmation of passkey to complete pairing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>Make sure it is showing this passkey:&lt;br>&lt;b><xliff:g id="passkey">%2$s</xliff:g>&lt;/b></string>
+
+    <!-- Message when bluetooth incoming pairing request for (2.1 devices) dialog is showing -->
+    <string name="bluetooth_incoming_pairing_msg">From:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>Pair with this device?</string>
+
+    <!-- Message when bluetooth dialog when passkey or pin needs to be displayed. -->
+    <string name="bluetooth_display_passkey_pin_msg">To pair with:<xliff:g id="bold1">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold1">&lt;/b>&lt;br>&lt;br></xliff:g>Type on it:<xliff:g id="bold2">&lt;br>&lt;b></xliff:g><xliff:g id="passkey">%2$s</xliff:g><xliff:g id="end_bold2">&lt;/b></xliff:g>, then press Return or Enter.</string>
+
+    <!-- Checkbox message in pairing dialogs.  [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_pairing_shares_phonebook">Allow <xliff:g id="device_name">%1$s</xliff:g> to access your contacts and call history</string>
+
+    <!-- Title for BT error dialogs. -->
+    <string name="bluetooth_error_title"></string>
+
+    <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"Pair"</string>
+
+    <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"Cancel"</string>
+
+    <string name="theme_default">Default Theme</string>
+    <string name="theme_blue">Blue Theme</string>
+
+    <string name="language_switching">Waiting for Language switching......</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@android:color/darker_gray"
+              android:gravity="left"
+              android:textSize="@dimen/dialog_message_text_size"
+              android:padding="@dimen/dialog_spinner_padding"
+              android:singleLine="true"
+              android:text="WEP"
+              android:id="@+id/hot_type" />
+
+

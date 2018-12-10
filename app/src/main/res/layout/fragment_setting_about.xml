@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="85dp"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp">
+
+    <TextView
+        style="@style/ContentTextStyle1"
+        android:text="@string/device_model"
+        />
+    <TextView
+        android:id="@+id/device_model"
+        style="@style/ContentTextStyle2"
+        />
+
+    <TextView
+        style="@style/ContentTextStyle1"
+        android:text="@string/firmware_version"
+        />
+    <TextView
+        android:id="@+id/firmware_version"
+        style="@style/ContentTextStyle2"
+        />
+
+    <TextView
+        style="@style/ContentTextStyle1"
+        android:text="@string/kernel_version"
+        />
+    <TextView
+        android:id="@+id/kernel_version"
+        style="@style/ContentTextStyle2"
+        />
+
+    <TextView
+        style="@style/ContentTextStyle1"
+        android:text="@string/build_number"
+        />
+    <TextView
+        android:id="@+id/build_number"
+        style="@style/ContentTextStyle2"
+        />
+
+
+</LinearLayout>

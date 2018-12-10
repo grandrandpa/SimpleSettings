@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/theme_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/ThemeItemImgStyle"
+                android:id="@+id/theme_default_icon"
+                android:src="@drawable/theme_default_preview"
+                />
+            <TextView
+                style="@style/ThemeItemTextStyle"
+                android:text="@string/theme_default"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/theme_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/ThemeItemImgStyle"
+                android:src="@drawable/theme_blue_preview"
+                />
+            <TextView
+                style="@style/ThemeItemTextStyle"
+                android:text="@string/theme_blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/theme_class_sev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/ThemeItemImgStyle"
+                android:src="@drawable/theme_cluster_1"
+                />
+            <TextView
+                style="@style/ThemeItemTextStyle"
+                android:text="@string/classic"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/theme_sport_sev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                style="@style/ThemeItemImgStyle"
+                android:src="@drawable/theme_cluster_2"
+                />
+            <TextView
+                style="@style/ThemeItemTextStyle"
+                android:text="@string/sports"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

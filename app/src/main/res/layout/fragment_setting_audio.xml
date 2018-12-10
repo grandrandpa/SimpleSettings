@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="85dp">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="80dp"
+        android:paddingRight="40dp"
+        android:orientation="vertical"
+        >
+
+        <com.cdtsp.settings.view.SettingSwitchItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:title="@string/sound_effect_am3d"
+            app:textSize="40dp"
+            app:switchDrawable="@drawable/selector_switch_img"
+            />
+
+        <include layout="@layout/line_seperator"/>
+
+        <RelativeLayout
+            android:id="@+id/sound_mode_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/sound_effect"
+                />
+            <ImageView
+                android:id="@+id/img_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/xitong_icon_more"
+                />
+            <TextView
+                android:id="@+id/sound_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/img_more"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/standard"
+                />
+        </RelativeLayout>
+
+        <include layout="@layout/line_seperator"/>
+
+        <com.cdtsp.settings.view.SettingProgressGroup
+            android:id="@+id/sound_seekbar_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/high"
+            app:textSize="35dp"
+            app:progressStyle="@drawable/selector_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+        <com.cdtsp.settings.view.SettingProgressGroup
+            android:id="@+id/sound_seekbar_mid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/mid"
+            app:textSize="35dp"
+            app:progressStyle="@drawable/selector_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+        <com.cdtsp.settings.view.SettingProgressGroup
+            android:id="@+id/sound_seekbar_low"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/low"
+            app:textSize="35dp"
+            app:progressStyle="@drawable/selector_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="40dp"
+        android:paddingRight="80dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/audio_field"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/sound_field_reset"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_common_guan_btn"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/reset"
+                />
+        </RelativeLayout>
+
+        <include layout="@layout/line_seperator"/>
+
+        <com.cdtsp.settings.view.SoundTouchView
+            android:id="@+id/sound_filed"
+            android:background="@drawable/chair"
+            android:layout_width="390dp"
+            android:layout_height="390dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="70dp"/>
+    </LinearLayout>
+
+</LinearLayout>

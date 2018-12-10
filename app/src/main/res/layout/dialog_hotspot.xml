@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/dialog_button_margin_l"
+    android:layout_marginLeft="@dimen/dialog_button_margin_c">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/dialog_spinner_padding"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/spin_prompt"
+        android:textSize="@dimen/dialog_title_text_size" />
+
+    <include layout="@layout/line_seperator"/>
+
+    <RelativeLayout
+        android:id="@+id/hotspot_name_item"
+        android:layout_width="@dimen/dialog_content_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_message_margin_t" >
+
+        <TextView
+            android:id="@+id/hotspot_set_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dialogtips"
+            android:text="@string/hotspot_name"
+            android:textSize="@dimen/dialog_tips_text_size" />
+
+        <EditText
+            android:id="@+id/name_view"
+            android:layout_width="@dimen/dialog_height"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hotspot_set_title"
+            android:padding="@dimen/dialog_spinner_padding"
+            android:textColor="@android:color/darker_gray"
+            android:background="@null"
+            android:text="@string/hotspot"
+            android:textSize="@dimen/dialog_message_text_size" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/hotspot_set_title"
+            android:src="@drawable/xitong_hot"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="@dimen/dialog_spinner_item_padding"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_spinner_padding"
+            android:layout_below="@+id/name_view"
+            layout="@layout/line_seperator" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hotspot_password_item"
+        android:layout_width="@dimen/dialog_content_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_message_margin_t" >
+
+        <TextView
+            android:id="@+id/hotspot_password_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dialogtips"
+            android:text="@string/hotspot_password"
+            android:textSize="@dimen/dialog_tips_text_size" />
+
+        <TextView
+            android:id="@+id/hotspot_password_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/dialogtips"
+            android:textAlignment="viewEnd"
+            android:text="@string/hotspot_password_tips"
+            android:textSize="@dimen/dialog_tips_text_size" />
+
+        <EditText
+            android:id="@+id/hotspot_password_view"
+            android:layout_width="@dimen/dialog_height"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hotspot_password_title"
+            android:padding="@dimen/dialog_spinner_padding"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/hotspot_password_value"
+            android:background="@null"
+            android:textSize="@dimen/dialog_message_text_size" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/hotspot_password_tips"
+            android:layout_marginBottom="@dimen/dialog_spinner_item_padding"
+            android:src="@drawable/hot_password"
+            android:scaleType="centerInside" />
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_spinner_padding"
+            android:layout_below="@+id/hotspot_password_view"
+            layout="@layout/line_seperator" />
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/hotspot_sec_item"-->
+        <!--android:layout_width="@dimen/dialog_content_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="50dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/hotspot_sec_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/dialogtips"-->
+            <!--android:text="@string/hotspot_sec_type"-->
+            <!--android:textSize="@dimen/dialog_tips_text_size" />-->
+
+        <!--<Spinner-->
+            <!--android:id = "@+id/hotspot_spinner"-->
+            <!--android:layout_width = "@dimen/dialog_content_width"-->
+            <!--android:layout_height = "wrap_content"-->
+            <!--android:layout_below="@+id/hotspot_sec_title"-->
+            <!--android:entries = "@array/hotspot_type"-->
+            <!--android:prompt = "@string/spin_prompt"-->
+            <!--android:backgroundTint="@color/transparent"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_below="@+id/hotspot_sec_title"-->
+            <!--android:src="@drawable/wifi_hot_menu"-->
+            <!--android:scaleType="centerInside" />-->
+
+        <!--<include-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="5dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_below="@+id/hotspot_spinner"-->
+            <!--layout="@layout/line_seperator" />-->
+
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/hotspot_band_item"
+        android:layout_width="@dimen/dialog_content_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_message_margin_t">
+
+        <TextView
+            android:id="@+id/hotspot_band_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dialogtips"
+            android:text="@string/hotspot_band"
+            android:textSize="@dimen/dialog_tips_text_size" />
+
+        <Spinner
+            android:id = "@+id/hotspot_band_spinner"
+            android:layout_width = "@dimen/dialog_content_width"
+            android:layout_height = "wrap_content"
+            android:layout_below="@+id/hotspot_band_title"
+            android:entries = "@array/hotspot_band_type"
+            android:prompt = "@string/spin_prompt"
+            android:backgroundTint="@color/transparent"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/hotspot_band_title"
+            android:src="@drawable/wifi_hot_menu"
+            android:scaleType="centerInside" />
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_spinner_padding"
+            android:layout_marginBottom="@dimen/dialog_spinner_padding"
+            android:layout_below="@+id/hotspot_band_spinner"
+            layout="@layout/line_seperator" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/dialog_content_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_spinner_item_padding">
+
+        <Button
+            android:id="@+id/button_ok"
+            android:text="@string/yes"
+            style="@style/DialogButtonStyle" />
+
+        <Button
+            android:id="@+id/button_cancle"
+            style="@style/DialogButtonStyle"
+            android:text="@string/no"
+            android:layout_marginLeft="@dimen/dialog_button_margin_c" />
+
+    </LinearLayout>
+
+</LinearLayout>

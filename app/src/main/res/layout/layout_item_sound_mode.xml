@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:background="@drawable/selector_bg_sound_btn"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:textSize="40dp"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/customize" />
+
+</LinearLayout>

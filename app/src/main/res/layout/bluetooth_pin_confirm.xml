@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:ellipsize="end"
+        android:lines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="@dimen/dialog_title_drawable_padding"
+        android:drawableStart="@drawable/dialog_prompt_icon"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/dialog_message_text_size" />
+
+
+    <TextView
+        android:id="@+id/pairing_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/bluetooth_pairing_key_msg"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/dialog_message_text_size"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/pairing_subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/pairing_code_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/bluetooth_enter_passkey_msg"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/dialog_message_text_size"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/phonebook_sharing_message_confirm_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:button="@drawable/selector_radiobtn"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/dialog_message_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_marginLeft="15dp"
+            style="@style/DialogButtonStyle"
+            android:layout_height="80dp"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:text="@string/bluetooth_pairing_accept" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            style="@style/DialogButtonStyle"
+            android:layout_height="80dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="60dp"
+            android:text="@string/bluetooth_pairing_decline" />
+    </LinearLayout>
+</LinearLayout>
+

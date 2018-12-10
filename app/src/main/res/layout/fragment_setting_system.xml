@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="85dp">
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="80dp"
+        android:paddingRight="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <com.cdtsp.settings.view.SettingItemGroup
+                android:id="@+id/item_group_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                app:title="@string/language"
+                app:optArray="@array/language_opts"
+                app:textSize="40dp"/>
+
+            <include layout="@layout/line_seperator"/>
+
+            <com.cdtsp.settings.view.SettingItemGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:title="@string/time_format"
+                app:optArray="@array/time_format"
+                app:textSize="40dp"/>
+
+            <include layout="@layout/line_seperator"/>
+
+            <com.cdtsp.settings.view.SettingItemGroup
+                android:id="@+id/item_group_btn_voice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:title="@string/click_voice"
+                app:optArray="@array/opts_voice"
+                app:textSize="40dp"/>
+
+            <include layout="@layout/line_seperator"/>
+
+            <com.cdtsp.settings.view.SettingSwitchItem
+                android:id="@+id/switch_gesture_air"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:title="@string/gesture_recognize"
+                app:subtitle=""
+                app:textSize="40dp"
+                app:switchDrawable="@drawable/selector_switch_img"
+                />
+
+            <com.cdtsp.settings.view.SettingSwitchItem
+                android:id="@+id/switch_log_tool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:title="@string/log_switch"
+                app:subtitle=""
+                app:textSize="40dp"
+                app:switchDrawable="@drawable/selector_switch_img"
+                />
+
+            <com.cdtsp.settings.view.SettingSwitchItem
+                android:id="@+id/switch_engine_simulation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:title="@string/engine_simulation"
+                app:subtitle=""
+                app:textSize="40dp"
+                app:switchDrawable="@drawable/selector_switch_img"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="40dp"
+        android:paddingRight="80dp"
+        android:orientation="vertical"
+        >
+        <com.cdtsp.settings.view.SettingProgressGroup
+            android:id="@+id/media_volume"
+            app:title="@string/media_volume"
+            style="@style/SettingProgressStyle"
+            app:progressStyle="@drawable/layer_list_style_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+        <com.cdtsp.settings.view.SettingProgressGroup
+            app:title="@string/volume_with_speed"
+            style="@style/SettingProgressStyle"
+            app:progressStyle="@drawable/layer_list_style_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+        <com.cdtsp.settings.view.SettingProgressGroup
+            android:id="@+id/ring_volume"
+            app:title="@string/ring_volume"
+            style="@style/SettingProgressStyle"
+            app:progressStyle="@drawable/layer_list_style_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+        <com.cdtsp.settings.view.SettingProgressGroup
+            android:id="@+id/navi_volume"
+            app:title="@string/navi_volume"
+            style="@style/SettingProgressStyle"
+            app:progressStyle="@drawable/layer_list_style_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+        <com.cdtsp.settings.view.SettingProgressGroup
+            android:id="@+id/phone_volume"
+            app:title="@string/phone_volume"
+            style="@style/SettingProgressStyle"
+            app:progressStyle="@drawable/layer_list_style_progress"
+            app:thumbDrawable="@drawable/thumb"
+            />
+    </LinearLayout>
+
+</LinearLayout>
